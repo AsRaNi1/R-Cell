@@ -3,11 +3,11 @@
 The project aims at building its own cryptocurrency from scratch using block chain technology. The project uses Python language along with Flask Frameworks to deploy it on a localhost server. This project therefore not only gets us to know about block chain, encryptions and keys but also brings us closer to the world of cryptocurrency whose value is increasing day by day in the modern era.
 
 ## Table Of Contents
-* Introduction
-  * About Project
-  * TechStack
-  * File Structure
-* Getting Started
+* [Introduction](#introduction)
+  * [About Project](#about-project)
+  * [Tech-Stack](#tech-stack)
+  * [File Structure](#file-structure)
+* [Getting Started](#getting-started)
   * Pre-requisites
   * Installations
 * Usage
@@ -19,16 +19,34 @@ The project aims at building its own cryptocurrency from scratch using block cha
 * Mentors
 * Acknowledgement
 
-## About Project
-Team Members of the project are:
-1. Arnav Zutshi
-2. Meloni Patel
-3. Prathameya Walimbe
-4. Vedangi Patil
+## Introduction
 
-## Mentors
-The project comes under CoC VJTI under Inheritance project.
-Our mentors for the project are:
-1. Ravi maurya
-2. Nikheel Indanoor
-3. Shreyas Penkar
+### About Project
+The project uses Blockchain Technology by implementation through Python and Flask in the backend for a server. It further uses SQL database for storing the user data such as password, username, email, account balance etc. Through HTML/CSS and JavaScript the Blockchain is deployed on a website. The website is on a local-host which is provided a server through ngrok. This project enhances the knowledge of blockchain technology which has a very high potential in future.
+
+### Tech-Stack
+* Python
+* Block-Chain
+* Flask
+* MySQL
+* Sha256
+
+### File Structure
+```
+📦R-Cell
+ ┣ 📂.vscode
+ ┃ ┣ 📜ltex.disabledRules.en-US.txt
+ ┃ ┣ 📜ltex.hiddenFalsePositives.en-US.txt
+ ┃ ┗ 📜settings.json
+ ┣ 📂css
+ ┃ ┗ 📜index.css
+ ┣ 📂static
+ ┃ ┣ 📂images
+ ┃ ┃ ┗ 📜favicon.ico
+ ┣ 📜app.py
+ ┣ 📜blockchain.py
+ ┣ 📜forms.py
+ ┣ 📜LICENSE
+ ┣ 📜sqlhelpers.py
+ ```
+ ## Getting Started
