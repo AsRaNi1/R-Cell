@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>R-Cell - Dashboard</title>
+  <link rel="shortcut icon" href="{{ url_for('static', filename = 'images/favicon2.png') }}">
+  <link rel="stylesheet" href="/static/css/layout.css">
+  
+</head>
+
+<body>
+  <header>
+    <nav class="topnav">
+      <ul>
+        <li><a href="/dashboard"><img src="/static/images/favicon2.png" alt=""></a></li>
+        <li><a href="dashboard">Dashboard</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><img src="/static/images/profile.png" alt=""> {{session.get('name')}} 
+          <div class="sub-menu">
+            <ul>
+              <li><a href="">WALLET</a></li>
+              <li><a href="">LOGOUT</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+  
+    </nav>
+  </header>
+  <main>
+    <div>
+
+      <a href="buy"><input type="submit" value="Buy"></a>
+      <a href="transaction"><input type="submit" value="Send"></a>
+
+      <div>
+        {% block body %}
+
+        {% endblock %}
+
+      </div>
+  </main>
+  <footer>
+    <div>
+      <span>Copyright © R-Cell 2021</span>
+    </div>
+  </footer>
+
+  </div>
+</body>
+
+</html>

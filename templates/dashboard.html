@@ -1,0 +1,58 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h1 style="text-align: center;">Welcome</h1>
+  <b style="text-align: right; font-size:medium; margin-bottom: 5px; display: inline-block;">[Current balance: <u>{{ balance }} RC]</u></b>
+
+{% include 'includes/_messages.html' %}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+th{
+  text-align: center;
+  background: linear-gradient(
+        135deg,cyan, #0047ab);;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:gray;
+}
+</style>
+<body style="text-align: center;">
+<b><div style="text-align: left; font-size: xx-large;">BLOCKCHAIN</div></b>
+    <div>
+      <table >
+        <thead>
+          <tr>
+            <th style="border-radius: 10px 0px 0px 0px;">Sno.</th>
+            <th>Transaction</th>
+            <th style="border-radius: 0px 10px 0px 0px;">Previous Hash||Block Hash</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          {% for block in blockchain %}
+            <tr>
+              <td>{{block.number}}</td>
+              <td>{{block.data}} RC</td>
+              <td>{{block.previous_hash, block.hash()}}</td>
+
+            </tr>
+          {% endfor %}
+            
+          
+        </tbody>
+      </table>
+    </div>
+  </body>
+{% endblock %}
