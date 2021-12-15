@@ -114,4 +114,17 @@ Assuming you have git, follow the following process
    ```
 7. Viola!! Your Blockchain is up and running, NOW MAKE YOUR FRIENDS REGISTER AND BUY AND SEND R-CELL CURRENCY.
 
-## Future Scope
+## 🔮Future Scope
+Here are a few things we are planning on adding in the future
+* Wallet
+* mempools
+## 👨‍💻Contributors
+* Arnav Zutshi
+* Meloni Patel
+* Prathameya Walimbe
+* Vedangi Patil
+## 🙏Mentors
+A very special thanks to the mentors!!
+* Ravi maurya
+* Nikheel Indanoor
+* Shreyas Penkar
