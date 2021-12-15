@@ -9,8 +9,7 @@ The project aims at building its own cryptocurrency from scratch using block cha
   * [File Structure](#file-structure)
 * [Getting Started](#getting-started)
   * Pre-requisites
-  * Installations
-* Usage
+  * Usage
 * Approach
 * Theory
 * Result and Demo
@@ -33,20 +32,60 @@ The project uses Blockchain Technology by implementation through Python and Flas
 
 ### File Structure
 ```
-📦R-Cell
- ┣ 📂.vscode
- ┃ ┣ 📜ltex.disabledRules.en-US.txt
- ┃ ┣ 📜ltex.hiddenFalsePositives.en-US.txt
- ┃ ┗ 📜settings.json
- ┣ 📂css
- ┃ ┗ 📜index.css
- ┣ 📂static
- ┃ ┣ 📂images
- ┃ ┃ ┗ 📜favicon.ico
- ┣ 📜app.py
- ┣ 📜blockchain.py
- ┣ 📜forms.py
- ┣ 📜LICENSE
- ┣ 📜sqlhelpers.py
+R-Cell(main)
+├─ static                   
+│  ├─ css                   
+│  │  ├─ index.css          
+│  │  ├─ layout.css         
+│  │  ├─ login.css          
+│  │  └─ register.css       
+│  └─ images                
+│     ├─ background.jpeg    
+│     ├─ favicon.ico        
+│     ├─ favicon2.png       
+│     ├─ home.png           
+│     └─ profile.png        
+├─ templates                
+│  ├─ handlers              
+│  │  └─ 404.html           
+│  ├─ includes              
+│  │  ├─ _formhelpers.html  
+│  │  └─ _messages.html     
+│  ├─ buy.html              
+│  ├─ dashboard.html        
+│  ├─ index.html            
+│  ├─ layout.html           
+│  ├─ login.html            
+│  ├─ register.html         
+│  └─ transaction.html      
+├─ app.py                   
+├─ blockchain.py            
+├─ forms.py                 
+└─ sqlhelpers.py
  ```
  ## Getting Started
+
+### Pre-requisites
+The project involes the installation of following libraries and environment:
+* Firstly obviously you should have [Python3](https://www.python.org/downloads/).
+* Some basic libraries and frameworks will come pre-installed but you'll require MORE!!
+* [Flask](https://flask.palletsprojects.com/en/2.0.x/): This the the framework that supports the website so installing this is a must else it'll throw ERRORS!!
+  
+  For installation copy and paste the following *mantra* in the prompt
+  ``` 
+  pip install flask
+  ```
+  
+* [Requests](https://pypi.org/project/requests/): This module is used only once :(, but none the less it is important.
+  
+  Use the *mantra*:
+  ```
+  pip install requests 
+  ```
+  
+* [An SQL connection with Flask](https://flask-mysqldb.readthedocs.io/en/latest/): This library ensures a connection between the MySQL Database and the Flask framework.
+  
+  Use the *mantra*:
+  ```
+  pip install flask-mysqldb
+  ```
