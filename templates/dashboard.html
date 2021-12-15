@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<h1 style="text-align: center;">Welcome</h1>
+<h1 style="text-align: center; font-size: 60px;">Welcome!</h1>
   <b style="text-align: right; font-size:medium; margin-bottom: 5px; display: inline-block;">[Current balance: <u>{{ balance }} RC]</u></b>
 
 {% include 'includes/_messages.html' %}
@@ -25,18 +25,18 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color:gray;
+  background-color:rgb(219, 214, 214);
 }
 </style>
 <body style="text-align: center;">
-<b><div style="text-align: left; font-size: xx-large;">BLOCKCHAIN</div></b>
-    <div>
-      <table >
+<b><div style="text-align: center; font-size: xx-large; font-size: 20px; margin-top: 20px;">BLOCKCHAIN</div></b>
+    <div style="display: flex; justify-content: center;">
+      <table style="margin-bottom: 20px;">
         <thead>
           <tr>
-            <th style="border-radius: 10px 0px 0px 0px;">Sno.</th>
-            <th>Transaction</th>
-            <th style="border-radius: 0px 10px 0px 0px;">Previous Hash||Block Hash</th>
+            <th style=" border: 1px solid;">Sno.</th>
+            <th style=" border: 1px solid;">Transaction</th>
+            <th style=" border: 1px solid;">Previous Hash||Block Hash</th>
           </tr>
         </thead>
         

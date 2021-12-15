@@ -12,15 +12,15 @@
 <body>
   <header>
     <nav class="topnav">
-      <ul>
-        <li><a href="/dashboard"><img src="/static/images/favicon2.png" alt=""></a></li>
+      <ul >
+        <li><a href="dashboard" id="logo"><img src="/static/images/favicon2.png" alt=""></a></li>
         <li><a href="dashboard">Dashboard</a></li>
         <li><a href="#about-us">About Us</a></li>
-        <li><img src="/static/images/profile.png" alt=""> {{session.get('name')}} 
-          <div class="sub-menu">
+        <li style="display: flex; align-items: center; position: absolute; right: 20px;"><img src="/static/images/profile.png" alt="" style="height: 25px; width: 25px;"><span style="margin-left: 10px;"> {{session.get('name')}} </span>
+          <div class="sub-menu"  style="top: 30px;">
             <ul>
               <li><a href="">WALLET</a></li>
-              <li><a href="">LOGOUT</a></li>
+              <li><a href="index">LOGOUT</a></li>
             </ul>
           </div>
         </li>
@@ -31,8 +31,8 @@
   <main>
     <div>
 
-      <a href="buy"><input type="submit" value="Buy"></a>
-      <a href="transaction"><input type="submit" value="Send"></a>
+      <a href="buy" ><input type="submit" value="Buy" style="background-color: cyan; margin-top:50px; margin-right: 20px;"></a>
+      <a href="transaction"><input type="submit" value="Send" style="background-color: cyan; margin-top:50px;"></a>
 
       <div>
         {% block body %}
