@@ -8,8 +8,8 @@ The project aims at building its own cryptocurrency from scratch using block cha
   * [Tech-Stack](#tech-stack)
   * [File Structure](#file-structure)
 * [Getting Started](#getting-started)
-  * Pre-requisites
-  * Usage
+  * [Pre-requisites](#pre-requisites)
+  * [Usage](#usage)
 * Approach
 * Theory
 * Result and Demo
@@ -22,6 +22,7 @@ The project aims at building its own cryptocurrency from scratch using block cha
 
 ### About Project
 The project uses Blockchain Technology by implementation through Python and Flask in the backend for a server. It further uses SQL database for storing the user data such as password, username, email, account balance etc. Through HTML/CSS and JavaScript the Blockchain is deployed on a website. The website is on a local-host which is provided a server through ngrok. This project enhances the knowledge of blockchain technology which has a very high potential in future.
+<p align="center"><img src="https://user-images.githubusercontent.com/84843295/146186109-84229fdc-d7e7-4159-8619-b26506a2a62f.jpeg" /></p>
 
 ### Tech-Stack
 * Python
@@ -89,3 +90,40 @@ The project involes the installation of following libraries and environment:
   ```
   pip install flask-mysqldb
   ```
+
+* wtforms: A python library used for getting inuput from a user in forms
+  Use *mantra*:
+  ```
+  pip install wtforms
+  ```
+* [Ngrok](https://ngrok.com/): For setting up the server for the website, Ngrok is required. Ngrok creates tunnels across local-host servers to make them behave as decentralized.  Download Ngrok from the link provided.
+  1. After installation open your prompt and run the following
+  ```
+  unzip /path/to/ngrok.zip
+  ```
+  2. Then open Ngrok and connect it to your account by copying the command provided on the website.
+  
+## Usage
+Assuming you have git, follow the following process
+1. Clone the Git Repo:
+   ```
+   $ git clone https://github.com/AsRaNi1/R-Cell.git
+   ```
+2. Go into the Repo directory
+   ```
+   $ cd ../R-Cell
+   ```
+3. Run the app.py file in the directory
+   ```
+   $ python app.py
+   ```
+4. A local-host server address will open
+   ![image](https://user-images.githubusercontent.com/84843295/146188192-f851c340-8cd0-42c5-b22f-c4c02a961536.png)
+
+5. Copy the local-host address and then open Ngrok
+6. In Ngrok paste the local host link as follows:
+   ```
+   ngrok http *Your Local host link here*
+   ```
+7. Viola!! Your Blockchain is up and running, NOW MAKE YOUR FRIENDS REGISTER AND BUY AND SEND R-CELL CURRENCY.
+
