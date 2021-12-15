@@ -14,7 +14,7 @@ The project aims at building its own cryptocurrency from scratch using block cha
 * [Future Scope](#future-scope)
 * [Contributors](#contributors)
 * [Mentors](#mentors)
-* [Acknowledgement](#acknowledgement)
+* [Mentors](#Mentors)
 
 ## 🙂Introduction
 
