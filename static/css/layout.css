@@ -32,7 +32,9 @@ body{
   background-color: #ddd;
   color: black;
 }
-
+#logo:hover {
+  background:none;
+}
 nav img{
   width: 70px;
   height: 45px;
@@ -42,10 +44,6 @@ nav img{
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
 footer{
   color: white;
   background-color: black;
