@@ -10,7 +10,7 @@ The project aims at building its own cryptocurrency from scratch using block cha
 * [Getting Started](#getting-started)
   * [Pre-requisites](#pre-requisites)
   * [Usage](#usage)
-* Trouble Shooting
+* [Trouble Shooting]()
 * Contributors
 * Mentors
 * Acknowledgement
@@ -22,11 +22,17 @@ The project uses Blockchain Technology by implementation through Python and Flas
 <p align="center"><img src="https://user-images.githubusercontent.com/84843295/146186109-84229fdc-d7e7-4159-8619-b26506a2a62f.jpeg" /></p>
 
 ### ⚙️Tech-Stack
-* Python
-* Block-Chain
-* Flask
-* MySQL
-* Sha256
+<p align="center">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python" height="40" style="vertical-align:top; margin:4px">
+<img src="https://user-images.githubusercontent.com/84843295/146195365-6091ba76-93b5-45c2-967b-ae8831a501fa.png" alt="Java Script" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="css" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="html" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="css" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png" alt="flask" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" alt="VS Code" height="40" style="vertical-align:top; margin:4px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="MySQL" height="40" style="vertical-align:top; margin:4px">
+<img src="https://user-images.githubusercontent.com/84843295/146194516-a5a1dea3-b779-4a3f-8672-a02ead2267c6.png" alt="Block-Chain" height="40" style="vertical-align:top; margin:4px">
+</p>
 
 ### 📁File Structure
 ```
