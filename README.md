@@ -114,7 +114,7 @@ Assuming you have git, follow the following process
    ```
 7. Viola!! Your Blockchain is up and running, NOW MAKE YOUR FRIENDS REGISTER AND BUY AND SEND R-CELL CURRENCY.
 
-## 😵‍💫 Trouble Shooting
+## 😵‍💫Trouble Shooting
 The making of this project tackled numerous obstacles. Some were tricky, while some were very easy to solve.
 1. The first problem faced was that the team was not working 🙂. This was the most tough and complex problem to solve since each member had to come out of their comfort zone and contribute.
 2. **Installations**: The various modules to be installed keep getting updates regularly and so does their way of working, so managing to work with different versions of the same package/module was tricky indeed.
