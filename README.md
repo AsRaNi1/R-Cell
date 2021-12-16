@@ -126,6 +126,6 @@ Here are a few things we are planning on adding in the future
 * [Vedangi Patil](https://github.com/Veda-12)
 ## 🙏Mentors
 A very special thanks to the mentors!!
-* Ravi maurya
-* Nikheel Indanoor
-* Shreyas Penkar
+* [Ravi Maurya](https://github.com/RaviMauryaHootowl)
+* [Nikheel Indanoor](https://github.com/nikheelindanoor)
+* [Shreyas Penkar](https://github.com/Shreyas-Penkar)
