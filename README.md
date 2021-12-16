@@ -115,6 +115,16 @@ Assuming you have git, follow the following process
    ```
 7. Viola!! Your Blockchain is up and running, NOW MAKE YOUR FRIENDS REGISTER AND BUY AND SEND R-CELL CURRENCY.
 
+## 😵‍💫 Trouble Shooting
+The making of this project tackled numerous obstacles. Some were tricky, while some were very easy to solve.
+1. The first problem faced was that the team was not working 🙂. This was the most tough and complex problem to solve since each member had to come out of their comfort zome and contribute.
+2. **Installations**: The various modules to be installed keep getting updates regularly and so does their way of working, so managing to work with different versions of the same package/module was tricky indeed.
+3. **Understanding**: Understanding Block-Chain, i.e getting its intuition at first was a bit difficult but eventually as we progressed the concept was well **inherited**.
+4. **Programming**: Some of the members were seeing some new python syntax's and how to use the different modules.
+5. **Debugging**: No comments.
+6. **Choosing a good website design**: Choosing this was so tough that we try to keep adding new features regularly.
+7. **Deploying the blockchain**: To deploy it on a server was not possible since blockchain is de-centralized, therefore for this Ngrok was used to create local-host tunnels.
+8. 
 ## 🔮Future Scope
 Here are a few things we are planning on adding in the future
 * Wallet
