@@ -10,7 +10,7 @@ The project aims at building its own cryptocurrency from scratch using block cha
 * [Getting Started](#getting-started)
   * [Pre-requisites](#pre-requisites)
   * [Usage](#usage)
-* [Trouble Shooting](#trouble-shooting)
+* [Trouble Shooting](##trouble-shooting)
 * [Future Scope](#future-scope)
 * [Contributors](#contributors)
 * [Mentors](#mentors)
