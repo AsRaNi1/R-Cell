@@ -120,10 +120,10 @@ Here are a few things we are planning on adding in the future
 * Wallet
 * mempools
 ## 👨‍💻Contributors
-* Arnav Zutshi
-* Meloni Patel
-* Prathameya Walimbe
-* Vedangi Patil
+* [Arnav Zutshi](https://github.com/AsRaNi1)
+* [Meloni Patel](https://github.com/meloni13)
+* [Prathameya Walimbe](https://github.com/b0ngus)
+* [Vedangi Patil](https://github.com/Veda-12)
 ## 🙏Mentors
 A very special thanks to the mentors!!
 * Ravi maurya
