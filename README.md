@@ -117,7 +117,7 @@ Assuming you have git, follow the following process
 
 ## 😵‍💫 Trouble Shooting
 The making of this project tackled numerous obstacles. Some were tricky, while some were very easy to solve.
-1. The first problem faced was that the team was not working 🙂. This was the most tough and complex problem to solve since each member had to come out of their comfort zome and contribute.
+1. The first problem faced was that the team was not working 🙂. This was the most tough and complex problem to solve since each member had to come out of their comfort zone and contribute.
 2. **Installations**: The various modules to be installed keep getting updates regularly and so does their way of working, so managing to work with different versions of the same package/module was tricky indeed.
 3. **Understanding**: Understanding Block-Chain, i.e getting its intuition at first was a bit difficult but eventually as we progressed the concept was well **inherited**.
 4. **Programming**: Some of the members were seeing some new python syntax's and how to use the different modules.
