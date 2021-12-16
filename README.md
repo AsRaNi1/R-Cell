@@ -124,7 +124,8 @@ The making of this project tackled numerous obstacles. Some were tricky, while s
 5. **Debugging**: No comments.
 6. **Choosing a good website design**: Choosing this was so tough that we try to keep adding new features regularly.
 7. **Deploying the blockchain**: To deploy it on a server was not possible since blockchain is de-centralized, therefore for this Ngrok was used to create local-host tunnels.
-8. 
+
+
 ## 🔮Future Scope
 Here are a few things we are planning on adding in the future
 * Wallet
