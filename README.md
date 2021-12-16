@@ -3,18 +3,17 @@
 The project aims at building its own cryptocurrency from scratch using block chain technology. The project uses Python language along with Flask Frameworks to deploy it on a localhost server. This project therefore not only gets us to know about block chain, encryptions and keys but also brings us closer to the world of cryptocurrency whose value is increasing day by day in the modern era.
 
 ## 📃Table Of Contents
-* [Introduction](#introduction)
-  * [About Project](#about-project)
-  * [Tech-Stack](#tech-stack)
-  * [File Structure](#file-structure)
-* [Getting Started](#getting-started)
-  * [Pre-requisites](#pre-requisites)
-  * [Usage](#usage)
+* [Introduction](##introduction)
+  * [About Project](###about-project)
+  * [Tech-Stack](###tech-stack)
+  * [File Structure](###file-structure)
+* [Getting Started](##getting-started)
+  * [Pre-requisites](###pre-requisites)
+  * [Usage](###usage)
 * [Trouble Shooting](##trouble-shooting)
-* [Future Scope](#future-scope)
-* [Contributors](#contributors)
-* [Mentors](#mentors)
-* [Mentors](#Mentors)
+* [Future Scope](##future-scope)
+* [Contributors](##contributors)
+* [Mentors](##mentors)
 
 ## 🙂Introduction
 
