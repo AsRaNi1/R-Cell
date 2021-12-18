@@ -7,7 +7,7 @@ The project aims at building its own cryptocurrency from scratch using block cha
   * [About Project](#about-project)
   * [Tech-Stack](#tech-stack)
   * [File Structure](#file-structure)
-* [Getting Started](#getting-started)
+* [Getting Started](#-getting-started)
   * [Pre-requisites](#pre-requisites)
   * [Usage](#usage)
 * [Trouble Shooting](#trouble-shooting)
