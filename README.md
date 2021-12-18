@@ -67,7 +67,7 @@ R-Cell(main)
 ├─ forms.py                 
 └─ sqlhelpers.py
  ```
-## ⚒️ Getting Started
+## ⚒️Getting Started
 
 ### 😁Pre-requisites
 The project involes the installation of following libraries and environment:
