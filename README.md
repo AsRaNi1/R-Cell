@@ -89,7 +89,7 @@ $ pip install -r requirements.txt
   and enter the password
 * After follow thw following steps:
   ```
-  $ CREATE crypto;
+  $ CREATE DATABASE crypto;
   ```
   ```
   $ USE crypto;
