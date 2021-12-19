@@ -82,6 +82,24 @@ Install all these requirements:
 ```
 $ pip install -r requirements.txt
 ```
+* After install Mysql on your PC open your prompt and type:
+  ```
+  $ mysql -u root -p
+  ```
+  and enter the password
+* After follow thw following steps:
+  ```
+  $ CREATE crypto;
+  ```
+  ```
+  $ USE crypto;
+  ```
+  ```
+  $ CREATE TABLE users(name varchar(50), email varchar(30), username varchar(30), password varchar(100));
+  ```
+  ```
+  $ CREATE TABLE blockchain(number varchar(10), hash varchar(64), previous varchar(64), data varchar(10), nonce varchar(20));
+  ```
 
 * [Ngrok](https://ngrok.com/): For setting up the server for the website, Ngrok is required. Ngrok creates tunnels across local-host servers to make them behave as decentralized.  Download Ngrok from the link provided.
   1. After installation open your prompt and run the following
