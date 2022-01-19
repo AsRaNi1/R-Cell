@@ -1,0 +1,37 @@
+{% extends 'layout.html' %} {% block body %} {% include
+'includes/_messages.html' %}
+<body
+  style="
+    background-image: url(https://user-images.githubusercontent.com/84843295/149777639-a4237ce6-144e-47d3-ad9c-19d355e33d65.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+  "
+>
+  <a href="transaction" style="padding: 47% 0% 0% 47%"
+    ><input
+      type="submit"
+      value="Send"
+      style="
+        background-color: black;
+        color: white;
+        width: 8%;
+        border-radius: 15px;
+      "
+  /></a>
+  <b
+    ><p style="font-size: medium">
+      Your current balance is {{ balance }} RC
+    </p></b
+  >
+  {% from "includes/_formhelpers.html" import render_field %}
+  <form action="" method="POST">
+    <div class="form-group">
+      <div class="form-label-group" style="width: 10%">
+        {{render_field(form.amount, class_="form-control")}}
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Buy Now</button>
+  </form>
+</body>
+{% endblock %}

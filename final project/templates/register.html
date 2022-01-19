@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="/static/css/register.css" />
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename = 'images/favicon2.png') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      background-image: url(https://images.pexels.com/photos/8369836/pexels-photo-8369836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    "
+  >
+    {% include 'includes/_messages.html' %} {% from "includes/_formhelpers.html"
+    import render_field %}
+    <div id="body_area">
+      <a href="/index"><img src="/static/images/home.png" alt="" /></a>
+      <h1>
+        <div class="line"></div>
+        <span>REGISTER</span>
+        <div class="line"></div>
+      </h1>
+      <h4>Create an account today.</h4>
+      <form action="" method="POST">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Full Name"
+          required="required"
+          style="border: 1px solid black"
+          value="{{request.form.name}}"
+        />
+        <br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+          required="required"
+          style="border: 1px solid black"
+          value="{{request.form.username}}"
+        />
+        <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required="required"
+          style="border: 1px solid black"
+          value="{{request.form.email}}"
+        />
+        <br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          required="required"
+          style="border: 1px solid black"
+          value="{{request.form.password}}"
+        />
+        <br />
+        <input
+          type="password"
+          id="confirm"
+          name="confirm"
+          placeholder="Confirm Password"
+          required="required"
+          style="border: 1px solid black"
+          value="{{request.form.confirm}}"
+        />
+        <br />
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+        <div>
+          <h5 class="already">Already have an account?</h5>
+          <a href="/login" class="already"><span>Login</span></a>
+        </div>
+      </form>
+      <br />
+    </div>
+  </body>
+</html>
