@@ -11,6 +11,7 @@ The project aims at building its own cryptocurrency from scratch using block cha
   * [Pre-requisites](#pre-requisites)
   * [Usage](#usage)
 * [Glimpses](#Glimpses)
+* [Google Drive Link](#gdrive)
 * [Trouble Shooting](#trouble-shooting)
 * [Future Scope](#future-scope)
 * [Contributors](#contributors)
@@ -138,6 +139,9 @@ Assuming you have git, follow the following process
 
 ## 📷Glimpses
 ![image](https://user-images.githubusercontent.com/84843295/150394944-b4f875ae-2b7d-432b-ac1b-9a1e98277adb.png)
+
+## Gdrive
+[Drive Link](https://drive.google.com/drive/folders/1pRIjyaQoP_TqpbfkvwZpNw6Yk5XCMF5c?usp=sharing)
 
 
 ## 😵‍💫Trouble Shooting
