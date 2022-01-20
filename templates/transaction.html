@@ -1,0 +1,22 @@
+<html>
+<body style="background-image: url(https://user-images.githubusercontent.com/84843295/150381028-419e6144-cafd-4998-85c1-9de59e236837.png);">
+{% extends 'layout.html' %}
+
+{% block body %}
+{% include 'includes/_messages.html' %}
+<p>Your current balance is {{ balance }} RC</p>
+{% from "includes/_formhelpers.html" import render_field %}
+<form method="POST" action="">
+  <div style="color: white; align-items: center; width: 20%;">
+    <b>{{render_field(form.username, class_="form-control")}}</b>
+  </div>
+  <div style="color: white; width: 20%;">
+    <b>{{render_field(form.amount, class_="form-control")}}</b>
+  </div>
+  </br>
+  <p style="color: white; padding-left: 115px;"><input type="submit" value="SEND" style="color: black;"></p>
+</form>
+
+{% endblock %}
+</body>
+</html>
