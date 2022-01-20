@@ -10,6 +10,7 @@ The project aims at building its own cryptocurrency from scratch using block cha
 * [Getting Started](#getting-started)
   * [Pre-requisites](#pre-requisites)
   * [Usage](#usage)
+* [Glimpses](#Glimpses)
 * [Trouble Shooting](#trouble-shooting)
 * [Future Scope](#future-scope)
 * [Contributors](#contributors)
@@ -100,15 +101,12 @@ $ pip install -r requirements.txt
   $ CREATE TABLE users(name varchar(50), email varchar(30), username varchar(30), password varchar(100));
   ```
   ```
-  $ CREATE TABLE blockchain(number varchar(10), hash varchar(64), previous varchar(64), data varchar(10), nonce varchar(20));
+  $ CREATE TABLE port5000(number varchar(10), hash varchar(64), previous varchar(64), sender varchar(30), recipient varchar(30, amount varchar(30), nonce varchar(20));
   ```
-
-* [Ngrok](https://ngrok.com/): For setting up the server for the website, Ngrok is required. Ngrok creates tunnels across local-host servers to make them behave as decentralized.  Download Ngrok from the link provided.
-  1. After installation open your prompt and run the following
   ```
-  unzip /path/to/ngrok.zip
+  $ CREATE TABLE port5000(number varchar(10), hash varchar(64), previous varchar(64), sender varchar(30), recipient varchar(30, amount varchar(30), nonce varchar(20));
   ```
-  2. Then open Ngrok and connect it to your account by copying the command provided on the website.
+  This is for 2 ports, for multiple ports make multiple tables and thus make changes in the list of connected tables in the app.py file accordingly
   
 ## 💻Usage
 Assuming you have git, follow the following process
@@ -120,19 +118,27 @@ Assuming you have git, follow the following process
    ```
    $ cd ../R-Cell
    ```
-3. Run the `app.py` file in the directory
+   
+4. Run the `app.py` file in the directory with a port number
    ```
-   $ python app.py
+   $ python app.py 5000
    ```
-4. A local-host server address will open
-   ![image](https://user-images.githubusercontent.com/84843295/146188192-f851c340-8cd0-42c5-b22f-c4c02a961536.png)
+5. Run `app.py` again but this time witha different port number, 5001
+   ```
+   $ python app.py 5001
+   ```
+7. 2 local-host server address will open on the 2 different terminals
+   ![image](https://user-images.githubusercontent.com/84843295/150394240-fc791e9f-db2f-47c5-9364-36a116bae684.png)
+   ![image](https://user-images.githubusercontent.com/84843295/150394392-72d2a8aa-5dc4-44a5-aa2a-44ff5773139b.png)
+   
+8. Register 2 accounts on the 2 different ports and thus there 2 ports become 2 different users. For more users make more tables and add them in the list of connected users in app.py
 
-5. Copy the `local-host` address and then open `Ngrok`
-6. In `Ngrok` paste the `local-host` link as follows:
-   ```
-   ngrok http *Your local-host link here*
-   ```
-7. Viola!! Your Blockchain is up and running, NOW MAKE YOUR FRIENDS REGISTER AND BUY AND SEND R-CELL CURRENCY.
+9. Now show this to your friends and boast about how you've created your own crypto-currency and that you're going to become a millionaire🤑
+
+
+## 📷Glimpses
+![image](https://user-images.githubusercontent.com/84843295/150394944-b4f875ae-2b7d-432b-ac1b-9a1e98277adb.png)
+
 
 ## 😵‍💫Trouble Shooting
 The making of this project tackled numerous obstacles. Some were tricky, while some were very easy to solve.
@@ -149,6 +155,7 @@ The making of this project tackled numerous obstacles. Some were tricky, while s
 Here are a few things we are planning on adding in the future
 * Wallet
 * mempools
+* The webdev part requires a lot more efforts and we'll try and iumplement that throught react.js
 ## 👨‍💻Contributors
 * [Arnav Zutshi](https://github.com/AsRaNi1)
 * [Meloni Patel](https://github.com/meloni13)
