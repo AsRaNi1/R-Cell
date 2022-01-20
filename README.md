@@ -105,7 +105,7 @@ $ pip install -r requirements.txt
   $ CREATE TABLE port5000(number varchar(10), hash varchar(64), previous varchar(64), sender varchar(30), recipient varchar(30, amount varchar(30), nonce varchar(20));
   ```
   ```
-  $ CREATE TABLE port5000(number varchar(10), hash varchar(64), previous varchar(64), sender varchar(30), recipient varchar(30, amount varchar(30), nonce varchar(20));
+  $ CREATE TABLE port5001(number varchar(10), hash varchar(64), previous varchar(64), sender varchar(30), recipient varchar(30, amount varchar(30), nonce varchar(20));
   ```
   This is for 2 ports, for multiple ports make multiple tables and thus make changes in the list of connected tables in the app.py file accordingly
   
