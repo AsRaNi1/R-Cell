@@ -19,7 +19,9 @@ The project aims at building its own cryptocurrency from scratch using block cha
 
 ### 🤔About Project
 The project uses Blockchain Technology by implementation through Python and Flask in the backend for a server. It further uses SQL database for storing the user data such as password, username, email, account balance etc. Through HTML/CSS and JavaScript the Blockchain is deployed on a website. The website is on a local-host which is provided a server through ngrok. This project enhances the knowledge of blockchain technology which has a very high potential in future.
-<p align="center"><img src="https://user-images.githubusercontent.com/84843295/146186109-84229fdc-d7e7-4159-8619-b26506a2a62f.jpeg" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/84843295/150372051-5301bfef-b50b-4a90-a5fc-6e2c0e876092.png" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/84843295/150372996-45c5f25e-5193-49f7-9898-7d45e418c357.png" /></p>
+
 
 ### ⚙️Tech-Stack
 <p align="center">
