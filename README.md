@@ -151,7 +151,7 @@ The making of this project tackled numerous obstacles. Some were tricky, while s
 4. **Programming**: Some of the members were seeing some new python syntax's and how to use the different modules.
 5. **Debugging**: No comments.
 6. **Choosing a good website design**: Choosing this was so tough that we try to keep adding new features regularly.
-7. **Deploying the blockchain**: To deploy it on a server was not possible since blockchain is de-centralized, therefore for this Ngrok was used to create local-host tunnels.
+7. **Deploying the blockchain**: To deploy it on a server was not possible since blockchain is de-centralized, therefore for this SQL Tables were used for each user.
 
 
 ## 🔮Future Scope
