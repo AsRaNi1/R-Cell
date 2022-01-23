@@ -26,7 +26,9 @@ app = Flask(__name__)
 # configure mysql
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
+
 app.config['MYSQL_PASSWORD'] = 'sql password'
+
 app.config['MYSQL_DB'] = 'test'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
@@ -35,7 +37,9 @@ mysql = MySQL(app)
 
 # wrap to define if the user is currently logged in from session
 PORT = sys.argv[1]
+
 connected_users = [{"PORT":5000}, {"PORT":5001}, {"PORT":5002}]
+
 
 
 
