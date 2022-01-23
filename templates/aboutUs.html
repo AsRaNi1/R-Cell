@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="/static/css/aboutUs.css" />
+  </head>
+  {% extends 'layout.html' %} {% block body %}
+
+  <body style="background:  linear-gradient(90deg, rgb(255, 251, 31), #ff7300);">
+    <h2>About Us</h2>
+    <p>
+      We are a team of 4, curious about blockchain technology. We started
+      building this project under the inheritance mentorship program at VJTI in
+      September 2021.
+    </p>
+    <h2>About Blockchain</h2>
+    <p>
+      Blockchain is a system of recording information in a way that makes it
+      difficult or impossible to change, hack, or cheat the system.
+      A blockchain is essentially a digital ledger of transactions that is
+      duplicated and distributed across the entire network of computer systems
+      on the blockchain. Each block in the chain contains a number of
+      transactions, and every time a new transaction occurs on the blockchain, a
+      record of that transaction is added to every participant’s ledger. The
+      decentralised database managed by multiple participants is known as
+      Distributed Ledger Technology (DLT).
+    </p>
+    <p>
+      Blockchain is a type of DLT in which transactions are recorded with an
+      immutable cryptographic signature called a hash.
+    </p>
+    <p>
+      This means if one block in one chain was changed, it would be immediately
+      apparent it had been tampered with. If hackers wanted to corrupt a
+      blockchain system, they would have to change every block in the chain,
+      across all of the distributed versions of the chain.
+    </p>
+    <h2>About VJTI</h2>
+    <p>
+      VJTI Mumbai (estd. in 1887 as Victoria Jubilee Technical Institute) has
+      pioneered India’s Engineering education, research and training ecosystem.
+      Pre-independence, VJTI had been instrumental in driving industrial growth
+      throughout united India. Post-independence, VJTI played a pivotal role in
+      setting up IITs and RECs of India and strengthened technology excellence
+      of country. In 1997, VJTI changed its name to Veermata Jijabai
+      Technological Institute to honor mother of Chhatrapati Shivaji Maharaj.
+      Located in South Mumbai, VJTI is an autonomous institution owned by
+      Maharashtra State Government. The institute offers programs in engineering
+      and technology at the diploma, degree, post-graduate and doctoral levels.
+      VJTI is known for its high quality teaching, collaborative research,
+      industry connect and strong alumni network.
+    </p>
+  </body>
+  {% endblock %}
+</html>
