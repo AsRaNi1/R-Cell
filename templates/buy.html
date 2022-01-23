@@ -1,22 +1,33 @@
-{% extends 'layout.html' %} {% block body %} {% include
-'includes/_messages.html' %}
-<body
-  style="
-    background-image: url(https://user-images.githubusercontent.com/84843295/150332032-3d577d26-dced-4ffb-9723-6090f8b1640d.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center; background-color: black;">
-  <b><p style="font-size: medium; color: aliceblue;">
-      CURRENT BALANCE: {{ balance }} RC
-    </p></b>
+
+{% extends 'layout.html' %} {% block body %} 
+<!-- {% include 'includes/_messages.html' %} -->
+<head>
+  <b><h1 style="font-size: medium; color: rgb(255, 255, 255); text-align: center; transform: translateY(-180px); 
+  font-size: xx-large; font-family:'Montserrat', sans-serif"><marquee direction="left" height="100" width="700">
+    CURRENT BALANCE: {{ balance }} RC</marquee>
+    
+  </h1></b>
+</head>
+<!-- style="background: linear-gradient(45deg, rgb(235, 92, 223), rgb(255, 175, 3) ,#ff2600);" -->
+<body style="background-image: url(https://user-images.githubusercontent.com/84843295/150642126-02fba0c6-0204-48d1-85d8-d902d9224884.png); background-size: 100%;">
+  <div style="padding-left: 525px;">
+  <div style="border: 5px solid black; width: 50%; border-radius: 15px; border-color: rgb(233, 166, 22);" >
   {% from "includes/_formhelpers.html" import render_field %}
   <form action="" method="POST">
     <div class="form-group">
-      <div class="form-label-group" style="width: 10%; color: white;">
+      <div style="font-family: 'Montserrat', sans-serif; padding-left: 5px;">
+      <div class="form-label-group" style="width: 98% ; color: rgb(255, 255, 255); font-size: x-large;">
         {{render_field(form.amount, class_="form-control")}}
       </div>
     </div>
+    <br>
+    <div style="padding-left: 200px; padding-bottom: 10px;">
     <button type="submit" class="btn btn-primary btn-block">Buy Now</button>
+  </div>
+</div>
   </form>
+</div>
+</div>
+
 </body>
 {% endblock %}

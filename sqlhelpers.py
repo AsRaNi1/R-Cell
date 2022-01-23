@@ -157,6 +157,9 @@ def send_money(sender, recipient, amount):
     data2 = "To: %s" % (recipient)
     data3 = "Amount: %s" % (amount)
     blockchain.mine(Block(number, sender=data1, recipient=data2, amount=data3))
+
+    blockchain.isValid()
+
     sync_blockchain(blockchain)
     
     
@@ -193,6 +196,10 @@ def get_blockchain():
     # query="SELECT * INTO blockahin2 FROM blockchain; "
     # exc.execute(query)
 
+
+    blockchain.isValid()
+
+
     return blockchain
 
 def dict_blockchain():
@@ -225,6 +232,9 @@ def sync_blockchain(blockchain):
     
     
     
+
+    
+
 
     
         

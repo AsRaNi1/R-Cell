@@ -12,7 +12,7 @@ import sys
 from sqlhelpers import *
 from forms import *
 import requests
-from flask_socketio import SocketIO
+
 
 # other dependencies
 import time
@@ -22,12 +22,13 @@ import time
 # initialize the app
 app = Flask(__name__)
 
-socketIO = SocketIO(app, cors_allowed_origins="*")
 
 # configure mysql
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'localhost password'
+
+app.config['MYSQL_PASSWORD'] = 'sql password'
+
 app.config['MYSQL_DB'] = 'test'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
@@ -36,7 +37,9 @@ mysql = MySQL(app)
 
 # wrap to define if the user is currently logged in from session
 PORT = sys.argv[1]
-connected_users = [{"PORT":5000}, {"PORT":5001}, {"PORT":5003}]
+
+connected_users = [{"PORT":5000}, {"PORT":5001}, {"PORT":5002}]
+
 
 
 
